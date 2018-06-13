@@ -1,0 +1,66 @@
+.phone {
+  width: 300px;
+  height: 400px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone .header {
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.phone .header > .icon {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.bottom-nav {
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column > div {
+  display: inline-block;
+}
+
+.expanded {
+  flex-grow: 1;
+}
+
+.phone .selectable:hover {
+  border: 3px solid black;
+}
+
+.fab {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.screen {
+  position: relative;
+  flex-grow: 1;
+}
